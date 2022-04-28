@@ -13,38 +13,38 @@
         </header>
         <form action="">
             <div class="box">
-                <h1>TP 4-1:Fiche Projet de fin d'études (License/Master), Filière Informatique</h1>
+                <h1>TP 4-1:Fiche Projet de fin d'études (Licence/Master), Filière Informatique</h1>
                 <div class="required">*Obligatoire</div>
             </div>
             <div class="box">
                 <p>Nom <span class="required">*</span></p>
-                <input type="text" placeholder="Votre réponse" id="nom" required>
+                <input class="text" type="text" placeholder="Votre réponse" id="nom" required>
             </div>
             <div class="box">
                 <p>Prénom <span class="required">*</span></p>
-                <input type="text" placeholder="Votre réponse" id="prenom" required>
+                <input class="text" type="text" placeholder="Votre réponse" id="prenom" required>
             </div>
             <div class="box">
                 <p>Matricule <span class="required">*</span></p>
-                <input type="number" placeholder="Votre réponse" id="matricule" required>
+                <input class="text" type="text" placeholder="Votre réponse" id="matricule" required>
             </div>
             <div class="box">
                 <p>Email <span class="required">*</span></p>
-                <input type="email" placeholder="Votre réponse" id="email" required>
+                <input class="text" type="email" placeholder="Votre réponse" id="email" required>
             </div>
             <div class="box">
                 <p>Téléphone</p>
-                <input type="tel" placeholder="Votre réponse" id="numTel">
+                <input class="text" type="tel" placeholder="Votre réponse" id="numTel">
             </div>
             <div class="box">
                 <p>Palier <span class="required">*</span></p>
                 <input type="radio" id="Licence" name="palier" value="Licence">
-                <label for="Licence">License</label>
+                <label for="Licence">License</label><br/>
                 <input type="radio" id="Master" name="palier" value="Master">
                 <label for="Master">Master</label>
             </div>
             <div class="box">
-                <p>Palier <span class="required">*</span></p>
+                <p>Spécialité <span class="required">*</span></p>
                 <select name="specialite">
                     <option value="ISIL">ISIL</option>
                     <option value="ACAD">ACAD</option>
@@ -54,25 +54,27 @@
             <div class="box">
                 <p>Type du projet <span class="required">*</span></p>
                 <input type="radio" id="Interne" name="typeProjet" value="Interne">
-                <label for="Interne">Interne</label>
+                <label for="Interne">Interne</label><br/>
                 <input type="radio" id="Externe" name="typeProjet" value="Externe">
                 <label for="Externe">Externe</label>
             </div>
             <div class="box">
                 <p>Domaine <span class="required">*</span></p>
                 <input type="checkbox" id="GL-SI-BD" name="domaine" value="GL-SI-BD">
-                <label for="GL-SI-BD">Génie Logiciel, Système d'informatique et Base de Donées</label>
+                <label for="GL-SI-BD">Génie Logiciel, Système d'informatique et Base de Donées</label><br/>
                 <input type="checkbox" id="RS-RM-SE" name="domaine" value="RS-RM-SE">
                 <label for="RS-RM-SE">Réseaux Sécurité, Réseaux Mabiles et Système d'Exploitation</label>
             </div>
             <div class="box">
                 <p>Intitulé du Projet <span class="required">*</span></p>
-                <input type="text" placeholder="Votre réponse" id="intituleProjet" required>
+                <input class="text" type="text" placeholder="Votre réponse" id="intituleProjet" required>
             </div>
             <div class="box">
                 <p>Résumé du Projet <span class="required">*</span></p>
-                <input type="text" placeholder="Votre réponse" id="resumeProjet" required>
+                <input class="text" type="text" placeholder="Votre réponse" id="resumeProjet" required>
             </div>
+            <input type="submit" value="Envoyer">
+            <input type="reset" value="Effacer le formulaire">
         </form>
     </div>
 </body>
